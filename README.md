@@ -26,12 +26,14 @@ To run from the HPC clusters:
 
 Sample Run using simple mode:
 crun python3 Neddleman-Wunsch.py --seq1 ACTCG --seq2 ACAGTAG --gap -1 --simple --match 1 --mismatch 0
+
 Optimal alignment score: 2
 AC--TCG
 ACAGTAG
 
 Sample Run using pam250 mode:
 crun python3 Neddleman-Wunsch.py --seq1 PRKVV --seq2 DPLVR --gap -2 --pam250
+
 Optimal alignment score: 4
 -PRKVV-
 DP--LVR
